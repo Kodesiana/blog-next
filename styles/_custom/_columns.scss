@@ -1,0 +1,12 @@
+.row {
+  display: flex;
+}
+
+@for $i from 1 through 10 {
+  $size: 10% * $i;
+  $index: 10 * $i;
+
+  .col-#{$index} {
+    flex: $size;
+  }
+}

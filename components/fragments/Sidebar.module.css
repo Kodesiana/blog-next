@@ -1,0 +1,6 @@
+.external_links_container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 15px;
+}
